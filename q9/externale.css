@@ -1,0 +1,50 @@
+#title{
+    margin-left: 42.7%;
+}
+.primary{
+    width: 80%;
+    background-color: white;
+    position: relative;
+    margin-top: 7%;
+    left: 10%;
+    padding: 18px;
+    }
+    .first,.second, .third, .fourth, .fifth{
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 7px;
+    margin: auto;
+    border-right: 3px solid white;
+    }
+    .digit{
+    position: absolute;
+    top:267.5px;
+    left: 120px ;
+    border: 5px solid white;
+    background-color: green;
+    color: white;
+    height: 110px;
+    width: 100px;
+    font-size: 30pt;
+    padding-top: 50px;
+    margin-left: 1px;
+    text-align: center;
+    }
+    .container{
+    position: absolute;
+    top: 260px;
+    left:260px;
+    width: 50%;
+    }
+    .name{
+    font-size: xx-large;
+    font-weight: bold;
+    }
+    .lock{
+    font-weight: normal;
+    }
+    body{
+    background-color: grey;
+    margin: 20px;
+}

@@ -1,0 +1,88 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaD_LuorX5nbeDsYA6R_6k6t_jXeOW936eXg&s');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    }
+    .heading{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .header {
+    background-color: rgba(255, 123, 0, 0.885);
+    color: white;
+    font-size: 25px;
+    }
+    .headers {
+    background-color: darkmagenta;
+    color: white;
+    font-size: 25px;
+    }
+    .head {
+    background-color: cyan;
+    color: white;
+    font-size: 25px;
+    }
+    .price li {
+    padding: 20px;
+    text-align: center;
+    }
+    .columns {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    }
+    .price {
+    color: white;
+    font-size: larger;
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    }
+    .one{
+    background-color: rgba(255, 123, 0, 0.885);
+    border: 1px solid rgba(255, 123, 0, 0.885);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 10px;
+    width: 150px;
+    margin: 20px 20px 50px 50px;
+    border-radius: 5px;
+    }
+    .two{
+    background-color: darkmagenta;
+    border: 1px solid darkmagenta;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 10px;
+    width: 150px;
+    margin: 20px 20px 50px 50px;
+    border-radius: 5px;
+    }
+    .three{
+    background-color:cyan;
+    border: 1px solid cyan;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    height: 10px;
+    width: 150px;
+    margin: 20px 20px 50px 50px;
+    border-radius: 5px;
+    }
+    .primary{
+    margin-left: 260px;
+    }
+    .last{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+    color: white;
+}
