@@ -1,0 +1,123 @@
+:root {
+    --standard-color: #ff6b6b;
+    --enhanced-color: #da3d98;
+    --unlimited-color: #40c9a2;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  .hero-section {
+    background-image: url("https://www.shutterstock.com/image-photo/radio-telescope-pointing-upwards-into-600nw-2338485243.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 80px 0;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+  
+  h1 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .pricing-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    height: 100%;
+  }
+  
+  .card-header {
+    padding: 20px;
+    text-align: center;
+    border: none;
+  }
+  
+  .card-header h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .standard {
+    background-color: var(--standard-color);
+  }
+  
+  .enhanced {
+    background-color: var(--enhanced-color);
+  }
+  
+  .unlimited {
+    background-color: var(--unlimited-color);
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .card-body ul li {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  .card-body ul li i {
+    margin-right: 10px;
+    width: 20px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+  
+  .btn-standard {
+    background-color: var(--standard-color);
+    color: white;
+  }
+  
+  .btn-enhanced {
+    background-color: var(--enhanced-color);
+    color: white;
+  }
+  
+  .btn-unlimited {
+    background-color: var(--unlimited-color);
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .pricing-card {
+      margin-bottom: 30px;
+    }
+  }
+  
+  
